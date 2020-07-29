@@ -17,9 +17,9 @@
 * Creating dashboards with a complete set of dates
 
 4. We've decided to only use the items and users tables to answer the following questions:
-...* How many items have been purchased?
-...* How many items do we have?
-...Which join type and order will allow us to correctly compute the columns Item_count, items_ever_purchased_count?
+⋅⋅* How many items have been purchased?
+⋅⋅* How many items do we have?
+⋅⋅⋅Which join type and order will allow us to correctly compute the columns Item_count, items_ever_purchased_count?
 
 ```sql
 SELECT *
@@ -33,8 +33,8 @@ ON
 
 5. For this statement, fill in the __ with the appropriate inequality (<, <=, =, >=, >):
 
-...For days in any given week
-...Daily unique visitors _ Weekly Unique visitors
+⋅⋅⋅For days in any given week
+⋅⋅⋅Daily unique visitors _ Weekly Unique visitors
 
 ##### R = **<=**
 Over a longer period of time there can only be more visitors.
@@ -56,9 +56,9 @@ Over a longer period of time there can only be more visitors.
 * Find the most recently viewed item
 
 9. Let’s suppose we want to write a query to answer both of these questions:
-...* How many users have made a purchase?
-...* How many users do we have?
-...Please choose the best set of columns for a final query that would answer these questions:
+⋅⋅* How many users have made a purchase?
+⋅⋅* How many users do we have?
+⋅⋅* Please choose the best set of columns for a final query that would answer these questions:
 
 ```sql
 user_count
