@@ -36,17 +36,47 @@ When I run the query below, no rows are returned, but there are no error message
 
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.3.png "QUIZ IMG3")
 
+##### R = There are no parent_user_ids that satisfy the WHERE clause
+
+
+6. TROUBLESHOOT THIS ERROR:
+##### Why are the results for this specific query empty?
+
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.4.png "QUIZ IMG4")
+
+##### R = There are no events with this event_name
+
+
+
+7. What does this query do? Select all true statements.
+
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.5.png "QUIZ IMG5")
+
+##### R = The query counts the number of rows corresponding to view_item events
+Count(*) counts rows not unique events, and because of this where clause it counts the number of view_item event rows.
+
+
+8. Consider the following query:
+
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.6.png "QUIZ IMG6")
+
+##### R = Each row with a null value is joined to every row in table_beta where table_beta.column is null.
+
+
+
+9. Which of the following are problems with the query below?
+
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.7.png "QUIZ IMG7")
+
+##### R = Count(*) counts rows not unique users
+So although we received no error message, we must be sure we correctly querying for the correct results.
 
 
 
 
+10. In the users table, the column parent_user_id is __________________.
 
-
-
-
-
-
-
+##### R = Sometimes NULL
 
 
 
