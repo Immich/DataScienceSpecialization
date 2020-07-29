@@ -3,6 +3,7 @@
 1.Question 1
 Based on the dataset for this course, what does this query count?
 
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.1.png "QUIZ IMG1")
 
 ```sql
 SELECT
