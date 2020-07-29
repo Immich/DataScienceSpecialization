@@ -33,8 +33,8 @@ ON
 
 5. For this statement, fill in the __ with the appropriate inequality (<, <=, =, >=, >):
 
-⋅⋅⋅For days in any given week
-⋅⋅⋅Daily unique visitors _ Weekly Unique visitors
+###### For days in any given week
+###### Daily unique visitors _ Weekly Unique visitors
 
 ##### R = **<=**
 Over a longer period of time there can only be more visitors.
