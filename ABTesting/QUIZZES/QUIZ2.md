@@ -51,7 +51,7 @@ GROUP BY
 
 4. Based on what you know about the orders table for this class, which of the following columns have a suitable datatype?
 
-![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz2.1.png "QUIZ2 IMG1")
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz2.1.png "QUIZ2 IMG1")
 
 ##### R =
 * item_name
@@ -66,7 +66,7 @@ GROUP BY
 
 6. Based on what you know about the **items** table for this class, which of the following columns have a suitable datatype? (Select all that apply.)
 
-![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz2.2.png "QUIZ2 IMG2")
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz2.2.png "QUIZ2 IMG2")
 
 ##### R =
 * category
