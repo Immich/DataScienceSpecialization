@@ -1,7 +1,6 @@
 # MODULE 1 QUIZ
 
-1.Question 1
-Based on the dataset for this course, what does this query count?
+1. Based on the dataset for this course, what does this query count?
 
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.1.png "QUIZ IMG1")
 
@@ -21,6 +20,8 @@ All of the orders have a user_id, and every user is in the user's table, so this
 
 2. Assume you have no information about the data in the example table.
 When I run the query below, no rows are returned, but there are no error messages. What are possible reasons for this? (Select all that apply.)
+
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.2.png "QUIZ IMG2")
 
 ```sql
 SELECT *
@@ -48,21 +49,7 @@ R =
 5. TROUBLESHOOT THIS ERROR:
 Based on your exploration of the tables in the course dataset. Why are the results to this specific query empty?
 
-```sql
-SELECT *
-FROM
-  dsv1069.users
-JOIN
-  dsv1069.events
-ON
-  users.parent_user_id = events.user_id
-WHERE
-  event_name = 'view_item'
-AND
-  merged_at IS NULL
-```
-NO ROWS RETURNED
-
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/quiz_imgs/quiz1.3.png "QUIZ IMG3")
 
 
 
