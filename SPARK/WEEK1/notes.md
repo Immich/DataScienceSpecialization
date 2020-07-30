@@ -76,7 +76,7 @@ DataFrames inherits RDD properties (resilient (fault tolerant) + distributed(com
 When you're using the DataFrame API, you specify what you want to be done not how you want it to be done. It's declarative as opposed to imperative. 
 
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/SPARK/WEEK1/img/catalyst.png "Spark DataFrame execution")
-(Original from: https://mapr.com/blog/how-spark-runs-your-applications/)
+###### (Original from: https://mapr.com/blog/how-spark-runs-your-applications/)
 
 1. Whether you write your query in SQL, or in Python, or Scala, it's going to go through the step called the **unresolved logical plan**
 2. It's then going to look up in the data catalog, what your data sources are that you're operating on and different data types
@@ -141,7 +141,6 @@ With Databricks Community Edition, you can invite up to three different people t
 Create a database and a table, compute aggregate statistics against a dataset, and create visualizations.
 Before we can do that, We need to mount some data. A mount is simply a pointer to a remote storage location, typically AWS or Azure, so we can access that data from within Databricks. 
 
-########## Check what a %fs is
 
 ### SLOT
 At a high level, a slot is a unit of parallelism.
