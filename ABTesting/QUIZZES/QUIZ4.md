@@ -49,10 +49,12 @@ Are the results statistically significant?
 ##### R = 14%
 
 9. Use this AB testing calculator. Enter the numbers seen in the image. In this calculation, what is the observed relative lift in success rate between control and treatment?
+#####
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.2.png "AB Testing tool test1")
 ##### R = 61%
 
 10. Use this AB testing calculator. Enter the numbers seen in the image. In this calculation, what is the range of improvement that is likely to have been caused by the treatment?
+#####
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.2.png "AB Testing tool test1")
 ##### R = 40% to 81%
 
