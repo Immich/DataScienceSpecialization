@@ -26,14 +26,14 @@
 * The orders table
 * I'm still missing something (The thing we are still missing is the date of the assignment)
 
-5. Use this AB testing calculator. Enter the numbers seen in the image, and use the results to determine if the results are statistically significant.
+[Use this AB testing calculator ](https://thumbtack.github.io/abba/demo/abba.html)
+
+5. Enter the numbers seen in the image, and use the results to determine if the results are statistically significant.
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.1.png "AB Testing tool test1")
 
 Are the results statistically significant?
 
 ##### R = No. The p-value is 0.97 and the true mean is likely to be between -25% and 27%. This result is not statistically significant.
-
-[Use this AB testing calculator ](https://thumbtack.github.io/abba/demo/abba.html)
 
 6. Enter the numbers seen in the image, and select all the correct interpretations of the data.
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.1.png "AB Testing tool test1")
@@ -46,7 +46,7 @@ Are the results statistically significant?
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.2.png "AB Testing tool test1")
 ##### R = 8.5%
 
-8. Use this AB testing calculator. Enter the numbers seen in the image. In this calculation, what is the observed success **rate in treatment**?
+8. Enter the numbers seen in the image. In this calculation, what is the observed success **rate in treatment**?
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.2.png "AB Testing tool test1")
 ##### R = 14%
 
@@ -55,7 +55,7 @@ Are the results statistically significant?
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.2.png "AB Testing tool test1")
 ##### R = 61%
 
-10. Enter the numbers seen in the image. In this calculation, what is the range of improvement that is likely to have been caused by the treatment?
+10. Enter the numbers seen in the image. In this calculation, what is the **range of improvement** that is likely to have been caused by the treatment?
 #####
 ![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/ABTesting/quiz_imgs/quiz4.2.png "AB Testing tool test1")
 ##### R = 40% to 81%
