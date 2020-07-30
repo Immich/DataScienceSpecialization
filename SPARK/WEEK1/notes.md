@@ -42,7 +42,7 @@ In computer science, we refer to this process of distributing computation as par
 
 At a high level, it states that the amount of speedup we would see from parallelizing a given task is a function of how much of that task can be computed in parallel.
 
-![alt text]( "Amdahl's Law")
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/SPARK/WEEK1/img/amdahlslaw.png "Amdahl's Law")
 
 Spark works so well because it is able to achieve what's called linear scalability, where it divides tasks across a cluster of machines so well that we continue to see improvements up to thousands of machines.
 
@@ -75,7 +75,7 @@ DataFrames inherits RDD properties (resilient (fault tolerant) + distributed(com
 ### Depth into one of the optimizers for Spark DataFrames called Catalyst.
 When you're using the DataFrame API, you specify what you want to be done not how you want it to be done. It's declarative as opposed to imperative. 
 
-![alt text]( "Spark DataFrame execution")
+![alt text](https://github.com/Immich/DataScienceSpecialization/blob/master/SPARK/WEEK1/img/catalyst.png "Spark DataFrame execution")
 (Original from: https://mapr.com/blog/how-spark-runs-your-applications/)
 
 1. Whether you write your query in SQL, or in Python, or Scala, it's going to go through the step called the **unresolved logical plan**
