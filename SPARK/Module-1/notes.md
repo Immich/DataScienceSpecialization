@@ -69,8 +69,8 @@ Explain the difference between RDD and Dataframe API within spark
 DataFrames inherits RDD properties (resilient (fault tolerant) + distributed(computed accross multiple nodes)) **plus** metadata.
 
 ##### Metadata
-⋅⋅* Number of columns
-⋅⋅* Data types
+  * Number of columns
+  * Data types
 
 ### Depth into one of the optimizers for Spark DataFrames called Catalyst.
 When you're using the DataFrame API, you specify what you want to be done not how you want it to be done. It's declarative as opposed to imperative. 
