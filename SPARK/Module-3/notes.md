@@ -3,7 +3,7 @@
 ## ENGINEERING DATA PIPELINES
 
 ### Pipelining
-The processof moving data throug an application
+The process of moving data throug an application
 
 ### Data ecosystems
 * Legacy data warehouses
@@ -264,7 +264,7 @@ FROM fireCallsCSV
 %python
 sql("SELECT * FROM fireCallsCSV8p").rdd.getNumPartitions()
 ```
-Out[6]: 8
+Out[7]: 8
 
 #### Saving the results:
 ```python
