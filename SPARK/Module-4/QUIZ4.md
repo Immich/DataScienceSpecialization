@@ -20,12 +20,16 @@ R = The average of the dataset
   
 #### 5. (Fill in the blanks with the appropriate answer below.)
 ##### Predicting whether a website user is fraudulent or not is an example of _________ machine learning. It is a __________ task.
+
 R = supervised, classification
+
+
 In this case, whether the user is fraudulent is the dependent variable and we are classifying fraudulent from non-fraudulent users.
 
 #### 6. (Fill in the blanks with the appropriate answer below.)
 ##### Grouping similar users together based on past activity is an example of _________ machine learning. It is a _________ task.
 R = unsupervised, clustering
+
 In this case, there is no clear dependent variable so it is an unsupervised problem involving clustering users.
 
 #### 7. Predicting the next quarter of a company's earnings is an example of...
