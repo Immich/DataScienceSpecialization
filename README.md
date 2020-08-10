@@ -1,4 +1,4 @@
-# DataScienceSpecialization :bar_chart:
+# Data Science Specialization :bar_chart:
 Notes from [Coursera’s specialisation](https://www.coursera.org/specializations/learn-sql-basics-data-science)
 
 ## Specialization Courses :books:
